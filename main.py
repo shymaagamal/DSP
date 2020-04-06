@@ -15,9 +15,12 @@ import  logging
 
 logger=logging.getLogger(__name__)
 fileHandler=logging.FileHandler('ApplicationWindow.log')
-Formatter=logging.Formatter('%(levelname)s:%(name)s:%(message)s')
+Formatter=logging.Formatter('%(levelname)s:%(asctime)s:%(name)s:%(message)s')
+streamHandler=logging.StreamHandler()
+streamHandler.setFormatter(Formatter)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(fileHandler)
+logger.addHandler(streamHandler)
 fileHandler.setFormatter(Formatter)
 
 
