@@ -9,9 +9,16 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from modesEnum import Modes
 from matplotlib import pyplot as plt
 from imageModel import ImageModel
-
 from PIL import Image
 from numpy import asarray
+import  logging 
+
+logger=logging.getLogger(__name__)
+fileHandler=logging.FileHandler('ApplicationWindow.log')
+Formatter=logging.Formatter('%(levelname)s:%(name)s:%(message)s')
+logger.setLevel(logging.DEBUG)
+logger.addHandler(fileHandler)
+fileHandler.setFormatter(Formatter)
 
 
 class ApplicationWindow(QtWidgets.QMainWindow):
@@ -23,6 +30,8 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         self.ImagButton2=0
         self.sizeFlag1=0
         self.sizeFlag2=0
+        
+
         self.ui.DisplayIm_1.clicked.connect(lambda:self.whichBtn(self.ui.DisplayIm_1))
         self.ui.DisplayIm_1.clicked.connect(self.open_Image)
         self.ui.DisplayIm_2.clicked.connect(lambda:self.whichBtn(self.ui.DisplayIm_2))
@@ -86,55 +95,72 @@ class ApplicationWindow(QtWidgets.QMainWindow):
                 self.comImg=self.ui.comboBox_1.currentText()
                 if self.comImg ==Modes.magnitudeFFT.value:
                     self.spectrum=self.img1.magnitude_Component()
+                    logger.debug('magnitude_Component_Imag1')
                 elif self.comImg ==Modes.phaseFFT.value:
                     self.spectrum=self.img1.phase_Component()
+                    logger.debug('phase_Component_Imag1')
                 elif self.comImg ==Modes.realFFT.value:
                     self.spectrum=self.img1.real_Component()
+                    logger.debug('real_Component_Imag1')
                 elif self.comImg ==Modes.imaginaryFFT.value:
                         self.spectrum=self.img1.imaginary_Component()
+                        logger.debug('imaginary_Component_Imag1')
                 elif self.comImg ==Modes.inverseMagnitudeFFT.value:
                         self.spectrum=self.img1.invers_Magnitude_Component()
+                        logger.debug('invers_Magnitude_Component_Imag1')
                 elif self.comImg ==Modes.inversePhaseFFT.value:
                         self.spectrum=self.img1.invers_Phase_Component()
+                        logger.debug('invers_Phase_Component_Imag1')
                 elif self.comImg ==Modes.uniMagnitude.value:
                         self.spectrum=self.img1.uni_Magnitude_Component()
+                        logger.debug('uni_Magnitude_Component_Imag1')
                 elif self.comImg ==Modes.uniPhase.value:
                         self.spectrum=self.img1.uni_Phase_Component()
+                        logger.debug('uni_Phase_Component_Imag1')
                         
 
                 self.pix=ImageModel(self.spectrum)
                 self.pix. modify_Component()
                 self.pix.image_Display(self.ui.Image_3)
+                
 
             elif self.comFlag2 == 1:
                 self.comImg=self.ui.comboBox_2.currentText()
                 if self.comImg ==Modes.magnitudeFFT.value:
                     self.spectrum=self.img2.magnitude_Component()
+                    logger.debug('magnitude_Component_Imag2')
                 elif self.comImg ==Modes.phaseFFT.value:
                     self.spectrum=self.img2.phase_Component()
+                    logger.debug('phase_Component_Imag2')
                 elif self.comImg ==Modes.realFFT.value:
                     self.spectrum=self.img2.real_Component()
+                    logger.debug('real_Component_Imag2')
                 elif self.comImg ==Modes.imaginaryFFT.value:
                         self.spectrum=self.img2.imaginary_Component()
+                        logger.debug('imaginary_Component_Imag2')
                 elif self.comImg ==Modes.inverseMagnitudeFFT.value:
                         self.spectrum=self.img2.invers_Magnitude_Component()
+                        logger.debug('invers_Magnitude_Component_Imag2')
                 elif self.comImg ==Modes.inversePhaseFFT.value:
                         self.spectrum=self.img2.invers_Phase_Component()
+                        logger.debug('invers_Phase_Component_Imag2')
                 elif self.comImg ==Modes.uniMagnitude.value:
                         self.spectrum=self.img2.uni_Magnitude_Component()
+                        logger.debug('uni_Magnitude_Component_Imag2')
                 elif self.comImg ==Modes.uniPhase.value:
                         self.spectrum=self.img2.uni_Phase_Component()
-
+                        logger.debug('uni_Phase_Component_Imag2')
                 self.pix=ImageModel(self.spectrum)
                 self.pix. modify_Component()
                 self.pix.image_Display(self.ui.Image_4)
-
+            logger.debug('Plot Component')
     def slider_Value(self,slider):
         if slider==self.ui.horizontalSlider:
             self.magnitudeOrRealRatio=float(self.ui.horizontalSlider.value()/100) 
+            logger.debug('Slider_Value:{}'.format(self.magnitudeOrRealRatio))
         elif slider==self.ui.horizontalSlider_2:
             self.phaesOrImaginaryRatio=float(self.ui.horizontalSlider_2.value()/100) 
-
+            logger.debug('Slider_Value:{}'.format(self.phaesOrImaginaryRatio))
     def radio_Button(self):
         if self.ui.radioButton.isChecked():
             self.radioFlag1=1
@@ -142,20 +168,22 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         elif self.ui.radioButton_2.isChecked():
             self.radioFlag1=0
             self.radioFlag2=1   
-
     def Mode(self):
         self.comImg=self.ui.comboBox_3.currentText()
         if self.radioFlag1==1:    
             if self.comImg==Modes.PhaseAndMagnitudeMode.value:
                 self.mix=self.img1.mix(self.img2,self.magnitudeOrRealRatio,self.phaesOrImaginaryRatio,Modes.PhaseAndMagnitudeMode.value)
+                logger.debug('Mix between Phase and Magnitde')
             elif  self.comImg==Modes.realAndImaginaryMode.value:
                 self.mix=self.img1.mix(self.img2,self.magnitudeOrRealRatio,self.phaesOrImaginaryRatio,Modes.realAndImaginaryMode.value)
-                
+                logger.debug('Mix between Imaginary and Real')
         elif self.radioFlag2==1:
             if self.comImg==Modes.PhaseAndMagnitudeMode.value:
                 self.mix=self.img2.mix(self.img1,self.magnitudeOrRealRatio,self.phaesOrImaginaryRatio,Modes.magnitudeAndPhase.value)
+                logger.debug('Mix between Phase and Magnitde')
             elif  self.comImg==Modes.realAndImaginaryMode.value:
                 self.mix=self.img2.mix(self.img1,self.magnitudeOrRealRatio,self.phaesOrImaginaryRatio,Modes.realAndImaginaryMode.value)
+                logger.debug('Mix between Phase and Magnitde')
     def output(self):
         self.comImg=self.ui.comboBox_5.currentText() 
         self.pix=ImageModel(self.mix)
@@ -164,7 +192,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             self.pix.image_Display(self.ui.output_1) 
         elif self.comImg==Modes.outputDisplay2.value :
             self.pix.image_Display(self.ui.output_2)
-
+        logger.debug('Display on Output')
    
 
 def main():

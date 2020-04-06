@@ -12,6 +12,15 @@ from PyQt5.QtGui import QPixmap
 from PyQt5 import QtCore, QtGui, QtWidgets
 import numpy as np
 from matplotlib import pyplot as plt
+import  logging 
+
+logger=logging.getLogger(__name__)
+fileHandler=logging.FileHandler('ApplicationWindow.log')
+Formatter=logging.Formatter('%(levelname)s:%(name)s:%(message)s')
+logger.setLevel(logging.DEBUG)
+logger.addHandler(fileHandler)
+fileHandler.setFormatter(Formatter)
+
 class ImageModel():
 
     """
@@ -43,8 +52,10 @@ class ImageModel():
         self.imgByte=QPixmap(self.imgPath)
         winDisplay.setScaledContents(True)
         winDisplay.setPixmap(self.imgByte)
+        logger.debug('Displayed Image')
     def modify_Component(self): 
         self.imgPath=QtGui.QImage(self.imgPath, self.imgPath.shape[0],self.imgPath.shape[1],QtGui.QImage.Format_Grayscale8)
+        logger.debug('Modified Component')
     def check_Size(self):
         self.imgByte=cv.imread(self.imgPath)    
         return  self.imgByte
@@ -112,6 +123,7 @@ class ImageModel():
             #self.mix=np.multiply(self.mixMag,np.exp(1j*self.mixPhase)) 
             self.mix=self.mixMag*np.exp(1j*self.mixPhase)
             self.mix=np.fft.ifft2(self.mix)
+            logger.debug('mix between Phase and magnitude')
         elif mode==Modes.realAndImaginaryMode.value:
             self.realImg1=self.real_Component()
             self.imagImg1=self.imaginary_Component()
@@ -122,6 +134,6 @@ class ImageModel():
             self.mix=np.multiply(self.mixMag,np.exp(self.mixPhase)) 
             self.mix=np.fft.ifft2(self.mix)
             self.mix=np.abs(self.mix)
-
+            logger.debug('mix between Real and Imaginary')
         return self.mix
      
