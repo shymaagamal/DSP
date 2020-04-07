@@ -16,7 +16,7 @@
 ![](4.jpeg)
 ## **After that he can choose any window to display output**
 ![](5.jpeg)
-## **but unfortunately i don't know what is the problem in my implementation  to display this output ,Although i wrote equation as doctor refered to on platform**
+## **but unfortunately i don't know what is the problem in my implementation  to display this output ,Although I wrote equation as doctor refered to on platform**
 ![](6.jpeg)
 
 ## **I Tried to apply logging to trace my code**
