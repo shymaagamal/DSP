@@ -139,7 +139,7 @@ class ImageModel():
             self.mix=self.mixReal +self.mixImag
             
             self.mix=np.fft.ifft2(self.mix)
-            self.mix=np.array(self.mix)
+            self.mix=np.array(self.mix).reshape(-1,2)
             logger.debug('mix between Real and Imaginary')
         return self.mix
      
