@@ -40,16 +40,16 @@ class ImageModel():
         # ALL the following properties should be assigned correctly after reading imgPath 
         ###
         
-        self.imgByte = None
-        self.dft = None
-        self.real =np.real(None)
-        self.imaginary = None
-        self.magnitude = None
-        self.phase = None
-        self.invmagnitude=None
-        self.invphase=None
-        self.unimagnitude=None
-        self.uniphase=None
+        self.imgByte = np.array(None)
+        self.dft = np.array(None)
+        self.real =np.array(None)
+        self.imaginary = np.array(None)
+        self.magnitude = np.array(None)
+        self.phase = np.array(None)
+        self.invmagnitude=np.array(None)
+        self.invphase=np.array(None)
+        self.unimagnitude=np.array(None)
+        self.uniphase=np.array(None)
         
     def image_Display(self,winDisplay):
         try:

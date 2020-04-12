@@ -822,3 +822,29 @@ DEBUG:__main__:Slider_Value:0.1
 DEBUG:__main__:Slider_Value:0.2
 DEBUG:__main__:Slider_Value:0.3
 DEBUG:__main__:Slider_Value:0.4
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Clicked on DisplayIm_2 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Phase component Image
+DEBUG:__main__:returned phase_Component_Imag1
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose Inverse FT Magnitude component Image
+DEBUG:__main__:returned invers_Magnitude_Component_Imag1
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose Inverse FT Phase component Image
+DEBUG:__main__:returned invers_Phase_Component_Imag1
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Plot Component
