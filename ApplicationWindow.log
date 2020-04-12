@@ -848,3 +848,10 @@ DEBUG:__main__:Chose Inverse FT Phase component Image
 DEBUG:__main__:returned invers_Phase_Component_Imag1
 DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image

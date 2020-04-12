@@ -40,7 +40,7 @@ class ImageModel():
         # ALL the following properties should be assigned correctly after reading imgPath 
         ###
         
-        self.imgByte = np.array(None)
+        #self.imgByte = np.array(None)
         self.dft = np.array(None)
         self.real =np.array(None)
         self.imaginary = np.array(None)
@@ -50,6 +50,9 @@ class ImageModel():
         self.invphase=np.array(None)
         self.unimagnitude=np.array(None)
         self.uniphase=np.array(None)
+        self.imgByte = cv.imread(imgPath,cv.IMREAD_GRAYSCALE)
+        self.imgByte = np.asarray( self.imgByte, dtype="int32"  )
+
         
     def image_Display(self,winDisplay):
         try:

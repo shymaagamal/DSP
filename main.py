@@ -70,20 +70,19 @@ class ApplicationWindow(QtWidgets.QMainWindow):
     
     def open_Image(self):
         fileName, _ = QtWidgets.QFileDialog.getOpenFileName(self, 'Single File' , '*.jpg')
-        self.imgByte = cv.imread(fileName,cv.IMREAD_GRAYSCALE)
-        self.imgByte = np.asarray( self.imgByte, dtype="int32"  )
-
+        
         if self.ImagButton1==1:
-            self.img1=ImageModel(self.imgByte)
-            self.sizeImg1=self.imgByte
+            self.img1=ImageModel(fileName)
+            
             self.img1.image_Display(self.ui.Image_1)
+            self.sizeImg1=self.img1.imgByte.shape
             if self.sizeFlag2==1:
-                if self.sizeImg1.shape !=self.sizeImg2.shape:
+                if self.sizeImg1 !=self.sizeImg2.shape:
                     logger.debug('Two Images have not the same size')
                     self.showMessageBox('Warning','Two Images have not the same size' )               
         elif self.ImagButton2==1:
             
-            self.img2=ImageModel(self.imgByte)
+            self.img2=ImageModel(fileName)
             self.img2.image_Display(self.ui.Image_2)
             if self.sizeFlag1==1:
                 self.sizeImg2=self.imgByte
