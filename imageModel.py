@@ -1,5 +1,3 @@
-## This is the abstract class that the students should implement
-
 from modesEnum import Modes
 import numpy as np
 
@@ -8,100 +6,76 @@ import numpy as np
 from modesEnum import Modes
 
 import cv2 as cv
-from PyQt5.QtGui import QPixmap ,QImage
+from PyQt5.QtGui import QPixmap
 from PyQt5 import QtCore, QtGui, QtWidgets
 import numpy as np
 from matplotlib import pyplot as plt
-import  logging 
-
-logger=logging.getLogger(__name__)
-fileHandler=logging.FileHandler('ApplicationWindow.log')
-Formatter=logging.Formatter('%(levelname)s:%(name)s:%(message)s')
-streamHandler=logging.StreamHandler()
-streamHandler.setFormatter(Formatter)
-logger.setLevel(logging.DEBUG)
-logger.addHandler(fileHandler)
-logger.addHandler(streamHandler)
-fileHandler.setFormatter(Formatter)
-
 class ImageModel():
 
     """
     A class that represents the ImageModel"
     """
-    
+
     def __init__(self):
 
         pass
-    
+
     def __init__(self, imgPath: str):
         self.imgPath = imgPath
         ###
         # ALL the following properties should be assigned correctly after reading imgPath 
         ###
-        
-        #self.imgByte = np.array(None)
-        self.dft = np.array(None)
-        self.real =np.array(None)
-        self.imaginary = np.array(None)
-        self.magnitude = np.array(None)
-        self.phase = np.array(None)
-        self.invmagnitude=np.array(None)
-        self.invphase=np.array(None)
-        self.unimagnitude=np.array(None)
-        self.uniphase=np.array(None)
-        self.imgByte = cv.imread(imgPath,cv.IMREAD_GRAYSCALE)
-        self.imgByte = np.asarray( self.imgByte, dtype="int32"  )
 
-        
+        self.imgByte = None
+        self.dft = None
+        self.real = None
+        self.imaginary = None
+        self.magnitude = None
+        self.phase = None
+        self.invmagnitude=None
+        self.invphase=None
+        self.unimagnitude=None
+        self.uniphase=None
     def image_Display(self,winDisplay):
-        try:
-            self.imgPath.shape
-            print(self.imgPath.shape)
-            self.imgByte=QImage(self.imgPath, self.imgPath.shape[0],self.imgPath.shape[1],QImage.Format_Grayscale8)
-            self.imgByte=QPixmap.fromImage(self.imgByte)
-            winDisplay.setScaledContents(True)
-            winDisplay.setPixmap(self.imgByte)
-            
-        except AttributeError:
-            print("shape not found")
-        logger.debug('Displayed Image')
-    def magnitude_Component(self):
-        self.dft = np.fft.fft2(self.imgPath)
+
+        self.imgByte=QPixmap(self.imgPath)
+        winDisplay.setScaledContents(True)
+        winDisplay.setPixmap(self.imgByte)
+    def modify_Component(self): 
+        self.imgPath=QtGui.QImage(self.imgPath, self.imgPath.shape[0],self.imgPath.shape[1],QtGui.QImage.Format_Grayscale8)
+    def check_Size(self):
+        self.imgByte=cv.imread(self.imgPath)    
+        return  self.imgByte
+    def fourier_Transform(self):
+        self.imgByte = cv.imread(self.imgPath)
+        self.dft = np.fft.fft2(self.imgByte)
         self.dft = np.fft.fftshift(self.dft) 
+        return self.dft
+    def magnitude_Component(self):
+        self.dft = self.fourier_Transform()
         self.magnitude =np.abs(self.dft)
         return self.magnitude
     def phase_Component(self):
-        self.dft = np.fft.fft2(self.imgPath)
-        self.dft = np.fft.fftshift(self.dft) 
-    
+        self.dft = self.fourier_Transform()
         self.phase = np.angle(self.dft)
         return self.phase
     def real_Component(self):
-        self.dft = np.fft.fft2(self.imgPath)
-        self.dft = np.fft.fftshift(self.dft) 
-    
+        self.dft = self.fourier_Transform()
         self.real=np.real(self.dft)
         self.real=np.array(self.real).reshape(-1,2).astype(np.int32)
         return self.real 
     def imaginary_Component(self):
-        self.dft = np.fft.fft2(self.imgPath)
-        self.dft = np.fft.fftshift(self.dft) 
-    
+        self.dft = self.fourier_Transform()
         self.imaginary = np.imag(self.dft)
         self.imaginary=np.array(self.imaginary)
         return self.imaginary 
     def uni_Phase_Component(self):
-        self.dft = np.fft.fft2(self.imgPath)
-        self.dft = np.fft.fftshift(self.dft) 
-    
+        self.dft = self.fourier_Transform()
         self.uniphase = np.angle(self.dft)
         self.uniphase=np.zeros(self.uniphase.shape,dtype=None ,order='C')
         return self.uniphase
     def uni_Magnitude_Component(self):
-        self.dft = np.fft.fft2(self.imgPath)
-        self.dft = np.fft.fftshift(self.dft) 
-    
+        self.dft = self.fourier_Transform()
         self.unimagnitude = np.abs(self.dft)
         self.unimagnitude=np.ones(self.unimagnitude.shape,dtype=None ,order='C')
         return self.unimagnitude
@@ -121,28 +95,30 @@ class ImageModel():
         #return the magnitude of ifft of the mix
         #3return type ---> 2D numpy array
         #please Add whatever functions realted to the image data in this file
-        
+
         ###
         # implement this function
         ###
         if mode==Modes.PhaseAndMagnitudeMode.value:
-            
+
             self.magnitudeImg2=imageToBeMixed.magnitude_Component()
             self.phaseImg2=imageToBeMixed.phase_Component()
-            self.mixMag=self.magnitude_Component() * magnitudeOrRealRatio + self.magnitudeImg2*(1- magnitudeOrRealRatio)
-            self.mixPhase=(1-phaesOrImaginaryRatio)* self.phase_Component() + phaesOrImaginaryRatio* self.phaseImg2
+            #self.mixMag=np.add(self.magnitude_Component() * magnitudeOrRealRatio,self.magnitudeImg2*(1- magnitudeOrRealRatio))
+            self.mixMag=self.magnitude_Component() * magnitudeOrRealRatio+self.magnitudeImg2*(1- magnitudeOrRealRatio)
+            #self.mixPhase=np.add((1-phaesOrImaginaryRatio)* self.phase_Component() ,magnitudeOrRealRatio* self.phaseImg2)
+            self.mixPhase=(1-phaesOrImaginaryRatio)* self.phase_Component() +magnitudeOrRealRatio* self.phaseImg2
+            #self.mix=np.multiply(self.mixMag,np.exp(1j*self.mixPhase)) 
             self.mix=self.mixMag*np.exp(1j*self.mixPhase)
             self.mix=np.fft.ifft2(self.mix)
-            logger.debug('mix between Phase and magnitude')
         elif mode==Modes.realAndImaginaryMode.value:
+            self.realImg1=self.real_Component()
+            self.imagImg1=self.imaginary_Component()
             self.realImg2=imageToBeMixed.real_Component()
             self.imagImg2=imageToBeMixed.imaginary_Component()
-            self.mixReal=self.real_Component() * magnitudeOrRealRatio + self.realImg2*(1- magnitudeOrRealRatio)
-            self.mixImag=(1-phaesOrImaginaryRatio)* self.imaginary_Component() + phaesOrImaginaryRatio* self.imagImg2
-            self.mix=self.mixReal +self.mixImag
-            
+            self.mixReal=np.add(self.magnitude * magnitudeOrRealRatio,self.magnitudeImg2*(1- magnitudeOrRealRatio))
+            self.mixImag=np.add((1-phaesOrImaginaryRatio)* self.phase ,magnitudeOrRealRatio* self.phaseImg2)
+            self.mix=np.multiply(self.mixMag,np.exp(self.mixPhase)) 
             self.mix=np.fft.ifft2(self.mix)
-            self.mix=np.array(self.mix).reshape(-1,2)
-            logger.debug('mix between Real and Imaginary')
+            self.mix=np.abs(self.mix)
+
         return self.mix
-     
