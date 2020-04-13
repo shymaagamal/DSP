@@ -202,3 +202,12 @@ DEBUG:__main__:Mix between Phase and Magnitde
 DEBUG:imageModel:mix between Phase and magnitude
 DEBUG:__main__:Display on Output
 DEBUG:__main__:Display on Output
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Real component Image
+DEBUG:__main__:returned real_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Real component Image
+DEBUG:__main__:returned real_Component_Imag1
+DEBUG:__main__:Plot Component

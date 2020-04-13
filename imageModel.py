@@ -47,9 +47,7 @@ class ImageModel():
 
         self.magnitude =np.abs(self.dft)
 
-        self.Real=np.real(self.dft)
-        self.real=np.array(self.Real).reshape(-1,2).astype(np.int32)
-
+        self.real=np.real(self.dft)
         self.Imaginary = np.imag(self.dft)
         self.imaginary=np.array(self.Imaginary)
         

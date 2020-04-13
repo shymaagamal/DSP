@@ -101,6 +101,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         elif self.comImg ==Modes.realFFT.value:
             logger.debug('Chose FT Real component Image')
             self.spectrum=Imge.real
+            self.spectrum=np.array(self.spectrum).reshape(-1,2).astype(np.int32)
             logger.debug('returned real_Component_Imag1')
         elif self.comImg ==Modes.imaginaryFFT.value:
             logger.debug('Chose FT Imaginary component Image')
