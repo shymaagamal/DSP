@@ -85,18 +85,18 @@ class ImageModel():
         ###
         if mode==Modes.PhaseAndMagnitudeMode.value:
             
-            self.magnitudeImg2=imageToBeMixed.magnitude_Component()
-            self.phaseImg2=imageToBeMixed.phase_Component()
-            self.mixMag=self.magnitude_Component() * magnitudeOrRealRatio + self.magnitudeImg2*(1- magnitudeOrRealRatio)
-            self.mixPhase=(1-phaesOrImaginaryRatio)* self.phase_Component() + phaesOrImaginaryRatio* self.phaseImg2
+            self.magnitudeImg2=imageToBeMixed.magnitude
+            self.phaseImg2=imageToBeMixed.phase
+            self.mixMag=self.magnitude * magnitudeOrRealRatio + self.magnitudeImg2*(1- magnitudeOrRealRatio)
+            self.mixPhase=(1-phaesOrImaginaryRatio)* self.phase + phaesOrImaginaryRatio* self.phaseImg2
             self.mix=self.mixMag*np.exp(1j*self.mixPhase)
             self.mix=np.fft.ifft2(self.mix)
             logger.debug('mix between Phase and magnitude')
         elif mode==Modes.realAndImaginaryMode.value:
-            self.realImg2=imageToBeMixed.real_Component()
-            self.imagImg2=imageToBeMixed.imaginary_Component()
-            self.mixReal=self.real_Component() * magnitudeOrRealRatio + self.realImg2*(1- magnitudeOrRealRatio)
-            self.mixImag=(1-phaesOrImaginaryRatio)* self.imaginary_Component() + phaesOrImaginaryRatio* self.imagImg2
+            self.realImg2=imageToBeMixed.real
+            self.imagImg2=imageToBeMixed.imaginary
+            self.mixReal=self.real * magnitudeOrRealRatio + self.realImg2*(1- magnitudeOrRealRatio)
+            self.mixImag=(1-phaesOrImaginaryRatio)* self.imaginary + phaesOrImaginaryRatio* self.imagImg2
             self.mix=self.mixReal +self.mixImag
             
             self.mix=np.fft.ifft2(self.mix)

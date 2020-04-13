@@ -152,12 +152,15 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
     def output(self):
         self.comImg=self.ui.comboBox_5.currentText() 
-        self.pix=ImageModel(self.mix)
+        self.image=QImage(self.mix, self.mix.shape[0],self.mix.shape[1],QImage.Format_Grayscale8)
+        self.image=QPixmap.fromImage(self.image)
+        
         if self.comImg==Modes.outputDisplay1.value:
-            self.pix.image_Display(self.ui.output_1) 
-            
+            self.ui.output_1.setScaledContents(True)
+            self.ui.output_1.setPixmap(self.image)
         elif self.comImg==Modes.outputDisplay2.value :
-            self.pix.image_Display(self.ui.output_2)
+            self.ui.output_2.setScaledContents(True)
+            self.ui.output_2.setPixmap(self.image)
         logger.debug('Display on Output')
    
 
