@@ -1,857 +1,120 @@
 DEBUG:__main__:Clicked on DisplayIm_1 Button
 DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Two Images have not the same size
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose Inverse FT Magnitude component Image1
-DEBUG:__main__:returned invers_Magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Phase component Image1
-DEBUG:__main__:returned phase_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Real component Image1
-DEBUG:__main__:returned real_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Imaginary component Image1
-DEBUG:__main__:returned imaginary_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose UniForm Phase component Image1
-DEBUG:__main__:returned uni_Phase_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose UniForm Magnitude component Image1
-DEBUG:__main__:returned uni_Magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose Inverse FT Magnitude component Image2
-DEBUG:__main__:returned invers_Magnitude_Component_Imag2
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Magnitude component Image2
-DEBUG:__main__:returned magnitude_Component_Imag2
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose UniForm Magnitude component Image2
-DEBUG:__main__:returned uni_Magnitude_Component_Imag2
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Imaginary component Image2
-DEBUG:__main__:returned imaginary_Component_Imag2
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose UniForm Phase component Image2
-DEBUG:__main__:returned uni_Phase_Component_Imag2
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.8
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:imageModel:Modified Component
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
+DEBUG:__main__:Chose FT Magnitude component Image
 DEBUG:__main__:returned magnitude_Component_Imag1
 DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.86
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Modified Component
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Two Images have not the same size
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Magnitude component Image1
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose Inverse FT Magnitude component Image1
-DEBUG:__main__:returned invers_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Phase component Image1
-DEBUG:__main__:returned phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose Inverse FT Phase component Image1
-DEBUG:__main__:returned invers_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Real component Image1
-DEBUG:__main__:returned real_Component_Imag1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Real component Image1
-DEBUG:__main__:returned real_Component_Imag1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Real component Image1
-DEBUG:__main__:returned real_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Imaginary component Image1
-DEBUG:__main__:returned imaginary_Component_Imag1
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose FT Imaginary component Image1
-DEBUG:__main__:returned imaginary_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose UniForm Phase component Image1
-DEBUG:__main__:returned uni_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose UniForm Magnitude component Image1
-DEBUG:__main__:returned uni_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose Inverse FT Phase component Image1
-DEBUG:__main__:returned invers_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image1
-DEBUG:__main__:Chose Inverse FT Magnitude component Image1
-DEBUG:__main__:returned invers_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Magnitude component Image2
-DEBUG:__main__:returned magnitude_Component_Imag2
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Magnitude component Image2
-DEBUG:__main__:returned magnitude_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose Inverse FT Magnitude component Image2
-DEBUG:__main__:returned invers_Magnitude_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Phase component Image2
-DEBUG:__main__:returned phase_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose Inverse FT Phase component Image2
-DEBUG:__main__:returned invers_Phase_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Real component Image2
-DEBUG:__main__:returned real_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose FT Imaginary component Image2
-DEBUG:__main__:returned imaginary_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Choose from ComboBox Image2
-DEBUG:__main__:Chose UniForm Phase component Image2
-DEBUG:__main__:returned uni_Phase_Component_Imag2
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
 DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Chose FT Magnitude component Image
 DEBUG:__main__:returned magnitude_Component_Imag1
 DEBUG:__main__:Clicked on DisplayIm_1 Button
 DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
 DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Chose FT Magnitude component Image
 DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
 DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_1 Button
+DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose Inverse FT Magnitude component Image
-DEBUG:__main__:returned invers_Magnitude_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
 DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose FT Magnitude component Image
+DEBUG:__main__:returned magnitude_Component_Imag1
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose FT Phase component Image
 DEBUG:__main__:returned phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose Inverse FT Phase component Image
-DEBUG:__main__:returned invers_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose FT Real component Image
 DEBUG:__main__:returned real_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose FT Imaginary component Image
 DEBUG:__main__:returned imaginary_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose UniForm Phase component Image
-DEBUG:__main__:returned uni_Phase_Component_Imag1
+DEBUG:__main__:Clicked on DisplayIm_1 Button
 DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose UniForm Magnitude component Image
-DEBUG:__main__:returned uni_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose UniForm Magnitude component Image
-DEBUG:__main__:returned uni_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose FT Magnitude component Image
 DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose UniForm Phase component Image
-DEBUG:__main__:returned uni_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose Inverse FT Magnitude component Image
 DEBUG:__main__:returned invers_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose FT Imaginary component Image
-DEBUG:__main__:returned imaginary_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose FT Phase component Image
 DEBUG:__main__:returned phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Chose Inverse FT Phase component Image
+DEBUG:__main__:returned invers_Phase_Component_Imag1
 DEBUG:__main__:Plot Component
 DEBUG:__main__:Chose FT Real component Image
 DEBUG:__main__:returned real_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
+DEBUG:__main__:Chose UniForm Phase component Image
+DEBUG:__main__:returned uni_Phase_Component_Imag1
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Chose UniForm Magnitude component Image
+DEBUG:__main__:returned uni_Magnitude_Component_Imag1
+DEBUG:__main__:Plot Component
+DEBUG:__main__:Clicked on DisplayIm_2 Button
+DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Chose Inverse FT Phase component Image
 DEBUG:__main__:returned invers_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.97
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.82
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.84
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Mix between Phase and Magnitde
-DEBUG:imageModel:mix between Phase and magnitude
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Display on Output
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.8
-DEBUG:__main__:Slider_Value:0.9
-DEBUG:__main__:Slider_Value:0.88
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.87
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.8
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.8
-DEBUG:__main__:Slider_Value:0.9
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.8
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.59
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.92
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.7
-DEBUG:__main__:Slider_Value:0.94
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.89
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Slider_Value:0.5
-DEBUG:__main__:Slider_Value:0.6
-DEBUG:__main__:Slider_Value:0.1
-DEBUG:__main__:Slider_Value:0.2
-DEBUG:__main__:Slider_Value:0.3
-DEBUG:__main__:Slider_Value:0.4
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_2 Button
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Chose FT Phase component Image
 DEBUG:__main__:returned phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
 DEBUG:__main__:Plot Component
-DEBUG:__main__:Chose FT Magnitude component Image
-DEBUG:__main__:returned magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose UniForm Phase component Image
+DEBUG:__main__:returned uni_Phase_Component_Imag1
 DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Chose Inverse FT Magnitude component Image
-DEBUG:__main__:returned invers_Magnitude_Component_Imag1
-DEBUG:imageModel:Displayed Image
+DEBUG:__main__:Chose UniForm Magnitude component Image
+DEBUG:__main__:returned uni_Magnitude_Component_Imag1
 DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Chose Inverse FT Phase component Image
-DEBUG:__main__:returned invers_Phase_Component_Imag1
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Plot Component
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
-DEBUG:__main__:Clicked on DisplayIm_1 Button
-DEBUG:imageModel:Displayed Image
